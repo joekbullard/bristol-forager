@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_browser_reload",
     # User apps
     "users",
+    "forager",
 ]
 
 MIDDLEWARE = [
