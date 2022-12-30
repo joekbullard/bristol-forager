@@ -1,0 +1,16 @@
+<!-- templates/registration/login.html -->
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}Sign Up{% endblock %}
+{% block content %}
+<div class="h-100 d-flex justify-content-center align-items-center">
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Log In</button>
+</form>
+</div>
+{% endblock %}

@@ -1,3 +1,17 @@
 from django.shortcuts import render
+from django.views import generic
 
-# Create your views here.
+from .models import Record, Species
+from users.models import CustomUser
+
+
+class IndexView(generic.ListView):
+    template_name = "forager/index.html"
+    context_object_name = "record_list"
+
+    def get_queryset(self):
+        myset = {
+            "first": Record.objects.order_by("-record_date")[:5],
+            "second": Species.in_season.all(),
+        }
+        return myset
