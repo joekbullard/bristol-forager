@@ -1,0 +1,19 @@
+<!-- templates/registration/login.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Record{% endblock %}
+{% block content %}
+<div class="h-100 d-flex justify-content-center align-items-center">
+<ul style="list-style: none">
+    <li>{{ record.species }}</li>
+    <li>{{ record.user }}</li>
+    <li>{{ record.record_date }}</li>
+    <li>{{ record.notes }}</li>
+    {% for imagerecord in record.record_images.all %} 
+    <li><img src="{{ imagerecord.image.url }}" style="max-width: 100px;" class="img-thumbnail"></li>
+    <li>{{ imagerecord.default }}</li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

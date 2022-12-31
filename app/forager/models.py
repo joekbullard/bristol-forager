@@ -2,12 +2,13 @@ from django.contrib.gis.db import models
 from users.models import CustomUser
 from django.core.exceptions import ValidationError
 from django.utils import timezone
+from django.urls import reverse
 
 
 def get_upload_path(instance, filename):
     model = instance.album.model.__class__._meta
     name = model.verbose_name_plural.replace(" ", "_")
-    return f"{name}/images/{filename}"
+    return f"/images/{filename}"
     
 
 class SpeciesInSeasonManager(models.Manager):

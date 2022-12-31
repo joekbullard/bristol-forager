@@ -20,7 +20,7 @@
         <div>
           <h2>Species in season</h2>
           <ul>
-            {% for a in record_list.second %}
+            {% for a in records.second %}
               <li>
                 {{ a.common_name }}
               </li>
@@ -30,7 +30,7 @@
         <div>
           <h2>Recent records</h2>
           <ul>
-            {% for b in record_list.first %}
+            {% for b in records.first %}
               <li>
                 {{ b.species }}
               </li>
