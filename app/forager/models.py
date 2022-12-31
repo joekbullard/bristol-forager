@@ -41,7 +41,7 @@ class Species(models.Model):
 
 
 class ImageSpecies(models.Model):
-    species = models.ForeignKey(Species, on_delete=models.CASCADE)
+    species = models.ForeignKey(Species, related_name='species_images', on_delete=models.CASCADE)
     caption = models.TextField(null=True, blank=True)
     image = models.ImageField(upload_to="images/")
     default = models.BooleanField(default=False)
@@ -51,7 +51,7 @@ class ImageSpecies(models.Model):
 
 
 class Record(models.Model):
-    """Forage model."""
+    """Record model."""
 
     species = models.ForeignKey(Species, on_delete=models.CASCADE)
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
@@ -69,6 +69,6 @@ class Record(models.Model):
 
 
 class ImageRecord(models.Model):
-    record = models.ForeignKey(Record, on_delete=models.CASCADE)
+    record = models.ForeignKey(Record, related_name='record_images', on_delete=models.CASCADE)
     image = models.ImageField(upload_to="images/")
     default = models.BooleanField(default=False)

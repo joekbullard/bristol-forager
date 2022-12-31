@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.gis",
     # 3rd party apps
     "django_browser_reload",
+    "rest_framework",
+    "rest_framework_gis",
     # User apps
     "users",
     "forager",
