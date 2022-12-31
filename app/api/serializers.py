@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from rest_framework_gis.serializers import GeoFeatureModelSerializer
-from .models import Record, ImageRecord, Species, ImageSpecies
+from forager.models import Record, ImageRecord, Species, ImageSpecies
 
 
 class ImageRecordSerializer(serializers.ModelSerializer):

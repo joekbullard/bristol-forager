@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     # User apps
     "users",
     "forager",
+    "api",
 ]
 
 MIDDLEWARE = [
