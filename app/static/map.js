@@ -1,5 +1,11 @@
-const copy =
-    "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors";
-const url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-const osm = L.tileLayer(url, { attribution: copy });
-const map = L.map("map", { layers: [osm] }).setView([51.452, -2.59], 12);
+const attribution =
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+const map = L.map("map");
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: attribution,
+}).addTo(map);
+const records = JSON.parse(document.getElementById("records-data").textContent);
+let feature = L.geoJSON(records).addTo(map);
+map.fitBounds(feature.getBounds(), { padding: [100, 100] });
+
+

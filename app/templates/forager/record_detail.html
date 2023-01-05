@@ -1,18 +1,32 @@
 <!-- templates/registration/login.html -->
 {% extends "base.html" %}
+{% load leaflet_tags %}
 {% load static %}
 
-{% block title %}Record{% endblock %}
+{% block title %}{{ record }}{% endblock %}
+{% block head %}
+{% leaflet_js %}
+{% leaflet_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'map.css' %}">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+{% endblock %}
 {% block content %}
-<div class="h-100 d-flex justify-content-center align-items-center">
+<div class="container h-100">
 <ul style="list-style: none">
     <li>{{ record.species }}</li>
     <li>{{ record.user }}</li>
     <li>{{ record.record_date }}</li>
     <li>{{ record.notes }}</li>
+    {{ data|json_script:"records-data" }}
+    <div id="map"></div>
+    <script src="{% static 'map.js' %}"></script>
     {% for imagerecord in record.record_images.all %} 
     <li><img src="{{ imagerecord.image.url }}" style="max-width: 100px;" class="img-thumbnail"></li>
     <li>{{ imagerecord.default }}</li>
+    
+    
+
     {% endfor %}
 </ul>
 </div>

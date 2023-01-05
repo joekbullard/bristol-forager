@@ -68,6 +68,9 @@ class Record(models.Model):
     def __str__(self):
         return "%s - %s" % (self.species, self.record_date.date().strftime("%d-%m-%Y"))
 
+    def get_absolute_url(self):
+        return reverse('record-detail', kwargs={'pk': self.pk})
+
 
 class ImageRecord(models.Model):
     record = models.ForeignKey(Record, related_name='record_images', on_delete=models.CASCADE)

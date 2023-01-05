@@ -7,3 +7,4 @@ django-browser-reload
 Pillow
 djangorestframework
 djangorestframework-gis
+django-leaflet

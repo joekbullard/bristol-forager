@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_browser_reload",
     "rest_framework",
     "rest_framework_gis",
+    "leaflet",
     # User apps
     "users",
     "forager",
