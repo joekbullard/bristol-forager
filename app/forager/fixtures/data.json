@@ -1,0 +1,1082 @@
+[
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Yarrow",
+            "scientific_name": "Achillea millefolium",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Monkshood",
+            "scientific_name": "Aconitum napellus",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Ground Elder",
+            "scientific_name": "Aegopodium podagraria",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Fool's Parsley",
+            "scientific_name": "Aethusa cynapium",
+            "start": "2022-03-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hedge Garlic",
+            "scientific_name": "Alliaria petiolata",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Few-Flowered Garlic",
+            "scientific_name": "Allium paradoxum",
+            "start": "2022-03-01",
+            "end": "2022-07-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Three-Cornered Leek",
+            "scientific_name": "Allium triquetrum",
+            "start": "2022-01-01",
+            "end": "2022-01-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Garlic",
+            "scientific_name": "Allium ursinum",
+            "start": "2022-02-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Crow Garlic",
+            "scientific_name": "Allium vineale",
+            "start": "2022-11-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Chervil",
+            "scientific_name": "Anthriscus sylvestris",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Columbine",
+            "scientific_name": "Aquilegia",
+            "start": "2022-04-01",
+            "end": "2022-07-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Burdock",
+            "scientific_name": "Arctium minus, Arctium lappa",
+            "start": "2022-09-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Mugwort",
+            "scientific_name": "Artemisia vulgaris",
+            "start": "2022-04-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lords and Ladies",
+            "scientific_name": "Arum maculatum",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Asparagus",
+            "scientific_name": "Asparagus officinalis, Asparagus prostratus",
+            "start": "2022-03-01",
+            "end": "2022-05-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Deadly nightshade",
+            "scientific_name": "Atropa belladonna",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wintercress",
+            "scientific_name": "Barbarea vulgaris",
+            "start": "2022-12-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Daisy",
+            "scientific_name": "Bellis perennis",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Barberry",
+            "scientific_name": "Berberis thunbergii atropurpurea",
+            "start": "2022-09-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sea Beet",
+            "scientific_name": "Beta vulgaris maritima",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Silver Birch",
+            "scientific_name": "Betula pendula",
+            "start": "2022-03-01",
+            "end": "2022-03-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Borage",
+            "scientific_name": "Borago officinalis",
+            "start": "2022-03-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "White Bryony",
+            "scientific_name": "Bryonia dioica",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Trailing Bellflower",
+            "scientific_name": "Campanula poscharskyana",
+            "start": "2022-05-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Harebells",
+            "scientific_name": "Campanula rotundifolia",
+            "start": "2022-07-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Shepherd's Purse",
+            "scientific_name": "Capsella bursa-pastoris",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hairy Bittercress",
+            "scientific_name": "Cardamine hirsuta",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lady's Smock",
+            "scientific_name": "Cardamine pratensis",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sweet Chestnut",
+            "scientific_name": "Castanea sativa",
+            "start": "2022-09-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Mouse-eared Chickweed",
+            "scientific_name": "Cerastium sp",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Rosebay Willowherb",
+            "scientific_name": "Chamerion angustifolium",
+            "start": "2022-04-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Fat Hen",
+            "scientific_name": "Chenopodium album",
+            "start": "2022-04-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pink Purslane",
+            "scientific_name": "Claytonia sibirica",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Scurvy Grass",
+            "scientific_name": "Cochlearia officinalis/danica",
+            "start": "2022-03-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hemlock",
+            "scientific_name": "Conium maculatum",
+            "start": "2022-03-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pignut",
+            "scientific_name": "Conopodium majus",
+            "start": "2022-03-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lily of the Valley",
+            "scientific_name": "Convallaria majalis",
+            "start": "2022-04-01",
+            "end": "2022-07-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Meadow Bindweed",
+            "scientific_name": "Convolvulus arvensis",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lesser Swine Cress",
+            "scientific_name": "Coronopus didymus",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hazel",
+            "scientific_name": "Corylus spp.",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hawthorn",
+            "scientific_name": "Crataegus monogyna/laevigata",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Rock Samphire",
+            "scientific_name": "Crithmum maritimum",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Thornapple",
+            "scientific_name": "Datura stramonium",
+            "start": "2022-06-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Carrot",
+            "scientific_name": "Daucus carota",
+            "start": "2022-12-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Foxglove",
+            "scientific_name": "Digitalis sp",
+            "start": "2022-03-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Crowberry",
+            "scientific_name": "Empetrum nigrum",
+            "start": "2022-06-01",
+            "end": "2022-04-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Beech Tree",
+            "scientific_name": "Fagus sylvatica",
+            "start": "2022-04-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Meadowsweet",
+            "scientific_name": "Filipendula ulmaria",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Forsythia",
+            "scientific_name": "Forsythia x intermedia",
+            "start": "2022-02-01",
+            "end": "2022-04-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Strawberry",
+            "scientific_name": "Fragaria vesca",
+            "start": "2022-05-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Cleavers",
+            "scientific_name": "Galium aparine",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hedge Bedstraw",
+            "scientific_name": "Galium mollugo",
+            "start": "2022-02-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wood Avens",
+            "scientific_name": "Geum urbanum",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Fool's Watercress",
+            "scientific_name": "Helosciadium nodiflorum",
+            "start": "2022-03-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Giant Hogweed",
+            "scientific_name": "Heracleum mantegazzianum",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hogweed",
+            "scientific_name": "Heracleum sphondylium",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Henbane",
+            "scientific_name": "Hyoscyamus niger",
+            "start": "2022-05-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Himalayan Balsam",
+            "scientific_name": "Impatiens glandulifera",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Ragwort",
+            "scientific_name": "Jacobaea vulgaris",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Walnut",
+            "scientific_name": "Juglans regia",
+            "start": "2022-06-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Laburnum",
+            "scientific_name": "Laburnum sp.",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Prickly Wild Lettuce",
+            "scientific_name": "Lactuca serriola",
+            "start": "2022-04-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Dead Nettles",
+            "scientific_name": "Lamium sp",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pheasant Berry",
+            "scientific_name": "Leycesteria formosa",
+            "start": "2022-07-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Honesty",
+            "scientific_name": "Lunaria annua",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Oregon Grape",
+            "scientific_name": "Mahonia aquifolium",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Crab Apple",
+            "scientific_name": "Malus sylvestris",
+            "start": "2022-08-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Mallow",
+            "scientific_name": "Malva sylvestris",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pineapple Weed",
+            "scientific_name": "Matricaria discoidea",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Water Mint",
+            "scientific_name": "Mentha aquatica",
+            "start": "2022-04-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Dog's Mercury",
+            "scientific_name": "Mercurialis perennis",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sweet Cicely",
+            "scientific_name": "Myrrhis odorata",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Watercress",
+            "scientific_name": "Nasturtium officinale",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Hemlock Water Dropwort",
+            "scientific_name": "Oenanthe crocata",
+            "start": "2022-02-01",
+            "end": "2022-07-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wood Sorrel",
+            "scientific_name": "Oxalis acetosella",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pink-Sorrel",
+            "scientific_name": "Oxalis articulata",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Water-Pepper",
+            "scientific_name": "Persicaria hydropiper",
+            "start": "2022-06-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Stagshorn Plantain",
+            "scientific_name": "Plantago coronopus",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Ribwort Plantain",
+            "scientific_name": "Plantago lanceolata",
+            "start": "2022-03-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Greater Plantain",
+            "scientific_name": "Plantago major",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Cowslip",
+            "scientific_name": "Primula veris",
+            "start": "2022-05-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Primrose",
+            "scientific_name": "Primula vulgaris",
+            "start": "2022-03-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Damson",
+            "scientific_name": "Prunus domestica subsp insititia",
+            "start": "2022-09-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Cherry",
+            "scientific_name": "Prunus Family",
+            "start": "2022-05-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Blackthorn (Sloe)",
+            "scientific_name": "Prunus spinosa",
+            "start": "2022-09-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Douglas Fir",
+            "scientific_name": "Pseudotsuga menziesii",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lesser Celandine",
+            "scientific_name": "Ranunculus ficaria",
+            "start": "2022-03-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Buttercups",
+            "scientific_name": "Ranunculus sp",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sea Radish",
+            "scientific_name": "Raphanus maritimus",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Redcurrant",
+            "scientific_name": "Ribes rubrum",
+            "start": "2022-06-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Gooseberry",
+            "scientific_name": "Ribes uva-crispa",
+            "start": "2022-06-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Bramble",
+            "scientific_name": "Rubus fruticosus",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Raspberry",
+            "scientific_name": "Rubus idaeus",
+            "start": "2022-06-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Common Sorrel",
+            "scientific_name": "Rumex acetosa",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sheep's Sorrel",
+            "scientific_name": "Rumex acetosella",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Elder tree",
+            "scientific_name": "Sambucus nigra",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Crown Vetch",
+            "scientific_name": "Securigera varia",
+            "start": "2022-05-01",
+            "end": "2022-07-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "White Campion",
+            "scientific_name": "Silene latifolia",
+            "start": "2022-05-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Mustard",
+            "scientific_name": "Sinapis arvensis",
+            "start": "2022-03-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Alexanders",
+            "scientific_name": "Smyrnium olusatrum",
+            "start": "2022-01-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Woody Nightshade",
+            "scientific_name": "Solanum dulcamara",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Black Nightshade",
+            "scientific_name": "Solanum nigrum",
+            "start": "2022-07-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Sow Thistle",
+            "scientific_name": "Sonchus spp.",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Rowan/Mountain Ash",
+            "scientific_name": "Sorbus aucuparia",
+            "start": "2022-04-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Greater Stitchwort",
+            "scientific_name": "Stellaria holostea",
+            "start": "2022-03-01",
+            "end": "2022-06-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Common Chickweed",
+            "scientific_name": "Stellaria media",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Comfrey",
+            "scientific_name": "Symphytum officinale",
+            "start": "2022-05-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Dandelion",
+            "scientific_name": "Taraxacum officinale",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Yew Tree",
+            "scientific_name": "Taxus baccata",
+            "start": "2022-09-01",
+            "end": "2022-11-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Wild Thyme",
+            "scientific_name": "Thymus polytrichus",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lime Tree",
+            "scientific_name": "Tilia sp",
+            "start": "2022-03-01",
+            "end": "2022-08-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Salsify",
+            "scientific_name": "Tragopogon sp",
+            "start": "2022-05-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Clovers",
+            "scientific_name": "Trifolium sp",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Gorse",
+            "scientific_name": "Ulex sp.",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Pennywort",
+            "scientific_name": "Umbilicus rupestris",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Nettle",
+            "scientific_name": "Urtica dioica",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Bilberry",
+            "scientific_name": "Vaccinium myrtillus",
+            "start": "2022-07-01",
+            "end": "2022-09-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Lamb's lettuce",
+            "scientific_name": "Valerianella locusta",
+            "start": "2022-01-01",
+            "end": "2022-01-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Vetch",
+            "scientific_name": "Vicia spp.",
+            "start": "2022-03-01",
+            "end": "2022-10-01"
+        }
+    },
+    {
+        "model": "forager.species",
+        "fields": {
+            "common_name": "Violet",
+            "scientific_name": "Viola odorata",
+            "start": "2022-01-01",
+            "end": "2022-12-01"
+        }
+    }
+]

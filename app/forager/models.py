@@ -59,6 +59,7 @@ class Record(models.Model):
     record_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
     notes = models.TextField(null=True, blank=True)
+    private = models.BooleanField(default=False)
     location = models.PointField()
 
     class Meta:

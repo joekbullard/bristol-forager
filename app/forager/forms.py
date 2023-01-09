@@ -7,6 +7,6 @@ class CreateRecordModelForm(ModelForm):
     class Meta:
         model = Record
         template = 'forager/record-create.html'
-        fields = ['species', 'notes', 'location']
+        fields = ['species', 'notes', 'location', 'private']
         labels = {'species': _('Species'), 'note': _('Enter notes'), 'location': _('Enter location (WGS84) ')}
         widgets = {'location': LeafletWidget()}
