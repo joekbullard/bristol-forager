@@ -13,12 +13,12 @@
 <form method="post">
   {% csrf_token %}
   {{ form|crispy }}
-  <div class="text-center pb-4">
+  <div class="text-center p-4">
     <button class="btn btn-success text-center" type="submit">Submit</button>
     </div>
   
 </form>
-<p>
+<p class="text-center">
   Not signed up yet? <a href={% url 'signup' %}> Register here</a>
 </p>
 </div>
