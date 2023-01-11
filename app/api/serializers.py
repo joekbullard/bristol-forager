@@ -18,7 +18,7 @@ class RecordSerializer(GeoFeatureModelSerializer):
         model = Record
         geo_field = "location"
 
-        fields = ("id", "species", "user", "record_date", "notes", "record_images")
+        fields = ("id", "species", "user", "date", "notes", "record_images")
 
 
 class ImageSpeciesSerializer(serializers.ModelSerializer):

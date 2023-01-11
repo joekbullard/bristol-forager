@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework_gis",
     "leaflet",
+    "crispy_forms",
+    "crispy_bootstrap5",
     # User apps
     "users",
     "forager",
@@ -147,3 +149,15 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+LEAFLET_CONFIG = {
+  'DEFAULT_ZOOM': 12,
+  'MIN_ZOOM': 2,
+  'MAX_ZOOM': 19,
+  'RESET_VIEW' : False,
+}
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+LOGIN_REDIRECT_URL = '/'

@@ -1,15 +1,21 @@
 <!-- templates/registration/signup.html -->
 {% extends "base.html" %}
+{% load crispy_forms_tags %}
 
 {% block title %}Sign Up{% endblock %}
 
 {% block content %}
-<div class="h-100 d-flex justify-content-center align-items-center">
-  <h2>Sign up</h2>
+<div class="d-flex flex-column align-items-center justify-content-center" style="height: 800px;">
+  
+  <div class="border shadow bg-light rounded p-4">
+    <h2 class='text-center'>Sign up</h2>
   <form method="post">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Sign Up</button>
+    {{ form|crispy }}
+    <div class="text-center">
+    <button class="btn btn-success text-center" type="submit">Submit</button>
+    </div>
+  </div>
   </form>
 </div>
 {% endblock %}

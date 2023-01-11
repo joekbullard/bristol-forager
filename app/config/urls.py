@@ -20,11 +20,11 @@ from django.conf.urls.static import static
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', TemplateView.as_view(template_name="index.html"), name='home'),
+    #path('', TemplateView.as_view(template_name="index.html"), name='home'),
     path('admin/', admin.site.urls), # admin site
     path('api/', include('api.urls')),
     path('api-auth/', include('rest_framework.urls')),
-    path('forager/', include('forager.urls')),
+    path('', include('forager.urls')),
     path("accounts/", include("users.urls")),
     path('accounts/', include("django.contrib.auth.urls")),
     path("__reload__/", include("django_browser_reload.urls")),

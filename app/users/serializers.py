@@ -1,6 +1,5 @@
 from .models import CustomUser
 from rest_framework import serializers
-from forager.models import Record
 
 class CustomUserSerializer(serializers.HyperlinkedModelSerializer):
     records = serializers.StringRelatedField(

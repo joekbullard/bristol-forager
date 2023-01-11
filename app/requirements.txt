@@ -8,3 +8,5 @@ Pillow
 djangorestframework
 djangorestframework-gis
 django-leaflet
+crispy-bootstrap5
+django-crispy-forms

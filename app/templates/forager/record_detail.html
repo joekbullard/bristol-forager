@@ -5,18 +5,15 @@
 
 {% block title %}{{ record }}{% endblock %}
 {% block head %}
-{% leaflet_js %}
-{% leaflet_css %}
-<link rel="stylesheet" type="text/css" href="{% static 'map.css' %}">
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    {% leaflet_js %}
+    {% leaflet_css %}
 {% endblock %}
 {% block content %}
-<div class="container h-100">
+<div class="container">
 <ul style="list-style: none">
     <li>{{ record.species }}</li>
     <li>{{ record.user }}</li>
-    <li>{{ record.record_date }}</li>
+    <li>{{ record.date }}</li>
     <li>{{ record.notes }}</li>
     {{ data|json_script:"records-data" }}
     <div id="map"></div>
@@ -28,6 +25,16 @@
     
 
     {% endfor %}
+
+
+<form method="POST" action="{% url 'record-delete' record.pk %}">
+    {% csrf_token %}
+    <button class="deletebtn show-form-delete" type="submit" value="DELETE" onclick="return confirm('Are you sure do you want to delete {{record.name}}')">
+        <i class="fa fa-trash-o"></i>
+        Delete</button>
+    </form>
+    
+    
 </ul>
 </div>
 {% endblock %}

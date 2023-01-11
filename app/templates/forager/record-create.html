@@ -1,9 +1,7 @@
 <!-- templates/registration/login.html -->
 {% extends "base.html" %}
 {% load leaflet_tags %}
-<style>
-    .leaflet-container { height: 100%; }
-  </style>
+{% load crispy_forms_tags %}
 {% load static %}
 
 
@@ -11,19 +9,32 @@
 {% block head %}
 {% leaflet_js plugins="forms" %}
 {% leaflet_css plugins="forms" %}
+<style>
+    .leaflet-container { height: 100%; }
+</style>
+<script type="text/javascript">
+    window.addEventListener("map:init", function (e) {
+        var detail = e.detail;
+        detail.map.locate()
+        .on("locationfound", (e) => detail.map.setView(e.latlng, 10))
+        .on("locationerror", (e) => map.setView([0, 0], 5));
+    }, false);
+</script>
+
 {% endblock %}
 
 {% block content %}
-
-
-
-<form method="POST" enctype="multipart/form-data">
+<div class="container-lg pt-4">
+    <h2 class="px-5">Add new record</h2>
+<form method="POST" enctype="multipart/form-data" class="p-5">
     <!-- Security token -->
     {% csrf_token %}
 
     <!-- Using the formset -->
-    {{ form.as_p }}
-    
+    <table class="table">
+    {{ form|crispy }}
+    </table>
     <input type="submit" value="Submit">
     </form>
+</div>
 {% endblock %}
