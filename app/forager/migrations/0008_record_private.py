@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0007_alter_imagerecord_record_alter_imagespecies_species'),
+        ("forager", "0007_alter_imagerecord_record_alter_imagespecies_species"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='record',
-            name='private',
+            model_name="record",
+            name="private",
             field=models.BooleanField(default=False),
         ),
     ]

@@ -12,7 +12,7 @@ class ImageRecordSerializer(serializers.ModelSerializer):
 class RecordSerializer(GeoFeatureModelSerializer):
     record_images = ImageRecordSerializer(many=True)
     species = serializers.StringRelatedField()
-    user = serializers.ReadOnlyField(source='user.email')
+    user = serializers.ReadOnlyField(source="user.email")
 
     class Meta:
         model = Record

@@ -6,17 +6,17 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0010_record_import_date_alter_record_record_date'),
+        ("forager", "0010_record_import_date_alter_record_record_date"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='record',
-            options={'ordering': ['-date'], 'verbose_name_plural': 'record'},
+            name="record",
+            options={"ordering": ["-date"], "verbose_name_plural": "record"},
         ),
         migrations.RenameField(
-            model_name='record',
-            old_name='record_date',
-            new_name='date',
+            model_name="record",
+            old_name="record_date",
+            new_name="date",
         ),
     ]

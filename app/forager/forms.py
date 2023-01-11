@@ -16,11 +16,13 @@ class CreateRecordModelForm(ModelForm):
             "note": _("Enter notes"),
             "private": _("Private record?"),
         }
-        widgets = {"location": LeafletWidget(),
-        "date": widgets.DateInput(attrs={'type': 'date'})}
+        widgets = {
+            "location": LeafletWidget(),
+            "date": widgets.DateInput(attrs={"type": "date"}),
+        }
 
     def clean_date(self):
-        date = self.cleaned_data['date']
+        date = self.cleaned_data["date"]
         if date > datetime.date.today():  # 🖘 raise error if greater than
             raise ValidationError("The date cannot be in the future!")
         return date

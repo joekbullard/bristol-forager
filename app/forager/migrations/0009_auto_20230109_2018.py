@@ -6,8 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0008_record_private'),
+        ("forager", "0008_record_private"),
     ]
 
-    operations = [
-    ]
+    operations = []

@@ -146,18 +146,18 @@ STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"  #
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = "/media/"
 
 LEAFLET_CONFIG = {
-  'DEFAULT_ZOOM': 12,
-  'MIN_ZOOM': 2,
-  'MAX_ZOOM': 19,
-  'RESET_VIEW' : False,
+    "DEFAULT_ZOOM": 12,
+    "MIN_ZOOM": 2,
+    "MAX_ZOOM": 19,
+    "RESET_VIEW": False,
 }
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = "/"

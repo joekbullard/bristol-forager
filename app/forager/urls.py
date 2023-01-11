@@ -6,7 +6,7 @@ from .views import (
     SpeciesListView,
     SpeciesDetailView,
     RecordUpdateView,
-    RecordDeleteView
+    RecordDeleteView,
 )
 from django.conf.urls.static import static
 from django.conf import settings
@@ -17,8 +17,8 @@ urlpatterns = [
     path("records/new/", RecordCreateView.as_view(), name="record-create"),
     path("species/", SpeciesListView.as_view(), name="species"),
     path("species/<int:pk>/", SpeciesDetailView.as_view(), name="species-detail"),
-    path('records/<int:pk>/update/', RecordUpdateView.as_view(), name='record-update'),
-    path('records/<int:pk>/delete/', RecordDeleteView.as_view(), name='record-delete'),
+    path("records/<int:pk>/update/", RecordUpdateView.as_view(), name="record-update"),
+    path("records/<int:pk>/delete/", RecordDeleteView.as_view(), name="record-delete"),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

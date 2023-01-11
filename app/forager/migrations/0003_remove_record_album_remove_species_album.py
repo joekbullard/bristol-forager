@@ -6,16 +6,16 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0002_imagerecord_imagespecies_delete_image'),
+        ("forager", "0002_imagerecord_imagespecies_delete_image"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='record',
-            name='album',
+            model_name="record",
+            name="album",
         ),
         migrations.RemoveField(
-            model_name='species',
-            name='album',
+            model_name="species",
+            name="album",
         ),
     ]

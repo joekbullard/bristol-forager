@@ -7,31 +7,58 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0001_initial'),
+        ("forager", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='ImageRecord',
+            name="ImageRecord",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=255)),
-                ('image', models.ImageField(upload_to='images/')),
-                ('default', models.BooleanField(default=False)),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='forager.record')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=255)),
+                ("image", models.ImageField(upload_to="images/")),
+                ("default", models.BooleanField(default=False)),
+                (
+                    "product",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="forager.record"
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='ImageSpecies',
+            name="ImageSpecies",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=255)),
-                ('image', models.ImageField(upload_to='images/')),
-                ('default', models.BooleanField(default=False)),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='forager.species')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=255)),
+                ("image", models.ImageField(upload_to="images/")),
+                ("default", models.BooleanField(default=False)),
+                (
+                    "product",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="forager.species",
+                    ),
+                ),
             ],
         ),
         migrations.DeleteModel(
-            name='Image',
+            name="Image",
         ),
     ]

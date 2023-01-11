@@ -6,11 +6,11 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0003_remove_record_album_remove_species_album'),
+        ("forager", "0003_remove_record_album_remove_species_album"),
     ]
 
     operations = [
         migrations.DeleteModel(
-            name='ImageAlbum',
+            name="ImageAlbum",
         ),
     ]

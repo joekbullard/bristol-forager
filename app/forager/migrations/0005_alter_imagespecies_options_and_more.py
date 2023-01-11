@@ -6,35 +6,35 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forager', '0004_delete_imagealbum'),
+        ("forager", "0004_delete_imagealbum"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='imagespecies',
-            options={'verbose_name_plural': 'image species'},
+            name="imagespecies",
+            options={"verbose_name_plural": "image species"},
         ),
         migrations.RenameField(
-            model_name='imagerecord',
-            old_name='product',
-            new_name='record',
+            model_name="imagerecord",
+            old_name="product",
+            new_name="record",
         ),
         migrations.RenameField(
-            model_name='imagespecies',
-            old_name='product',
-            new_name='species',
+            model_name="imagespecies",
+            old_name="product",
+            new_name="species",
         ),
         migrations.RemoveField(
-            model_name='imagerecord',
-            name='name',
+            model_name="imagerecord",
+            name="name",
         ),
         migrations.RemoveField(
-            model_name='imagespecies',
-            name='name',
+            model_name="imagespecies",
+            name="name",
         ),
         migrations.AddField(
-            model_name='imagespecies',
-            name='caption',
+            model_name="imagespecies",
+            name="caption",
             field=models.TextField(blank=True, null=True),
         ),
     ]
